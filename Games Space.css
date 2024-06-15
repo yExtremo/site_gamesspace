@@ -1,0 +1,186 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h3 /* Serve para mudar a font das palavras no site */
+{
+    font-family: "Bungee Inline", sans-serif;
+}
+
+body, input, textarea
+{
+    font-family: "Playwrite NL", cursive;
+}
+
+h2
+{
+    font-family: "Bungee", sans-serif;
+}
+
+header 
+{
+    padding: 0px 0;
+    background-color: black;
+    color: white;
+}
+
+header nav li 
+{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px; /* na hora q for colocar a font e as letras ficarem um pouco gordinhas abeixe essa opçao */
+}
+header nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+header h1 
+{
+    font-size: 40px;
+    font-weight: normal; /* na hora de colocar font inspecionar as letras para ver se não esta com um comando css "font-weight: bold" se estiver trocar para "normal para que as letras voltem ao normal" */
+}
+
+section h2,
+section h3
+{
+    font-weight: normal; /* na hora de colocar a font depois inspecione as letras no html do navegador para ver se não esta com um comando css "font-weight: bold" se estiver trocar para "normal para que as letras voltem ao normal" */
+}
+
+
+.container 
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img
+{
+    height: 40px;
+}
+
+.brands-list li 
+{
+    display: inline;
+}
+
+section .container
+{
+    align-items: flex-start;
+}
+
+section /* serve para modificar a margem dos objetos que estão dente do "section" */
+{
+    padding: 24px 0;
+}
+
+section h2
+{
+    margin-bottom: 20px;
+    color: blue;
+}
+
+
+section p 
+{
+    margin-bottom: 8px;
+    color: red;
+}
+
+.store-front 
+{
+    margin-right: 15px;
+}
+
+section img 
+{
+    margin-right: 10px;
+}
+
+.social-links img 
+{
+    height: 30px;
+}
+
+.social-links li 
+{
+    display: inline; /* Serve para colocar imagens uma do lado da outra tirando os 3 pontos do lado da imagem */
+    margin-bottom: 8px;
+}
+
+.social-links li a 
+{
+    text-decoration: none; /* Serve para tirar o underline do lado da imagem */
+}
+
+#contact .container /* muda o campo de contato */
+{
+    display: block;
+}
+
+.contact-methods  /* muda o campo de contato */
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button
+{
+    display: block; /* Serve para que os campos de texto fiquem um embaixo do outro */
+    width: 320px; /* serve para mudar o tamanho dos "form" */
+    margin-bottom: 8px; /* espaçamento entre os campos de text */
+    padding: 10px; /* Serve para aumentar os campos de text area na forma horizontal */
+}
+
+form textarea 
+{
+    resize: none; /* Serve para tirar os 3 risquinhos do lado do textarea para que o usuario não quebre o leyout */
+    height: 180px; /* muda o tamanho do textarea */
+}
+
+section h3 
+{
+    margin-bottom: 16px;
+}
+
+form button 
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none; /* Serve para tirar a borda do botão enviar */
+    cursor: pointer; /* Serve para colocar a maozinha quando voce passa com o mouse em cima do button */
+}
+
+form button:hover /*pseudo seletor serve para colocar coisas segundarias nos botoes */
+{
+    background-color: rgb(27, 26, 26);
+}
+
+input:focus, textarea:focus 
+{
+    outline-color: blue;
+}
+
+footer 
+{
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}

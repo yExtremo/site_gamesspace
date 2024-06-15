@@ -85,14 +85,16 @@ section
     padding: 20px 0px;
 }
 
-section h2 /* Muda o "SOBRE a LOJA" */
+section h2 /* da um espaçamento da sobre a loja da mensagem de baixo  */
 {
     margin-bottom: 10px;
+    
 }
 
 section 
 {
     color: rgb(52, 52, 194)
+    
 }
 
 section p 
@@ -104,7 +106,6 @@ section p
 {
     margin-right: 16px;
     margin-left: 24px;
-    
 }
 /* inicia da modelagem da social-links */
 .social-links img
@@ -189,3 +190,5 @@ footer p
 {
     margin-left: 24px;
 }
+
+
