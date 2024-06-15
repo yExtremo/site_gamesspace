@@ -1,0 +1,5 @@
+git remote set-url origin https://novo.repositorio-remoto.com
+
+git remote -v
+
+git remote show origin
